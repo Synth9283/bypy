@@ -1,9 +1,11 @@
 # bypy:
   A adfly bypass tool
 # Requirements:
+  ```
   Web Driver (FireFox or Chrome)
   selenium
   urllib3
+  ```
 # Python module installation:
   Windows:
   ```
