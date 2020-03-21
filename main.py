@@ -1,7 +1,6 @@
 import os, sys, platform
 from src.query import Query
 
-
 if platform.system() == 'Windows':
     clear = lambda: os.system('cls')
 

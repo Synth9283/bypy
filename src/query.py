@@ -3,7 +3,6 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 
-
 class Query:
     def ff(link):
         driver = webdriver.Firefox()
@@ -21,7 +20,7 @@ class Query:
         driver.get(direct_link)
 
     def ch(link):
-        driver = webdriver.Firefox()
+        driver = webdriver.Chrome()
         driver.get(link)
         wait = WebDriverWait(driver, 10)
         wait.until(lambda driver: driver.current_url != link)
